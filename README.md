@@ -1,3 +1,4 @@
-# DjangoAzure [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+# Trading Economics
+## The Economics Behind Trading Forex
 
-Django makes it easier to build better Web apps more quickly and with less code.[Get started with Django](https://www.djangoproject.com/start/)
+Basic concepts  to help you understand the fundermentals behind forex trading. All you need to know when following the news while trading, the jargon simplified.

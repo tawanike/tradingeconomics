@@ -3,7 +3,8 @@ Definition of urls for DjangoApp.
 """
 
 from datetime import datetime
-from django.conf.urls import url
+from django.contrib import admin
+from django.conf.urls import url, include
 from app.forms import BootstrapAuthenticationForm
 from app.views import *
 from app.models import *
@@ -18,7 +19,8 @@ from django.contrib.auth.views import *
 urlpatterns = [
     # Examples:
      
-    url(r'^$', home, name='home'),
+    url(r'^admin/', admin.site.urls),
+    url(r'', include('mmogo.blog.urls')),
     url(r'^contact$', contact, name='contact'),
     url(r'^about', about, name='about'),
    url(r'^login/$', login, {

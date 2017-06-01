@@ -3,6 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% block html_metatags %}{% endblock %}
+    {% block og_metatags %}{% endblock %}
+    {% block twitter_metatags %}{% endblock %}
+
     <title>{{ title }} - Trading Economics</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
